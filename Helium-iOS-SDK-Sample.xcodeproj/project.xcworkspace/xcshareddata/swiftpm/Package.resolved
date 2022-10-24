@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "helium-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kilitbilgi/helium-ios-sdk.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "76c1326b5200ad12c9e3bbfabe870acc40435dfc"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import Helium_iOS_SDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        Helium_iOS_SDK.initialize(apiKey: "", logEnabled: true)
+
         return true
     }
 
