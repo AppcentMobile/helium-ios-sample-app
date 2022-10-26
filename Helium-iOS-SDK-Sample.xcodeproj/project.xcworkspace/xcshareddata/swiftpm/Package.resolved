@@ -3,10 +3,10 @@
     {
       "identity" : "helium-ios-sdk",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/kilitbilgi/helium-ios-sdk.git",
+      "location" : "https://github.com/AppcentMobile/helium-ios-sdk.git",
       "state" : {
         "branch" : "main",
-        "revision" : "76c1326b5200ad12c9e3bbfabe870acc40435dfc"
+        "revision" : "41486875c5ed54076a25bde85a476b13e19a51d5"
       }
     }
   ],

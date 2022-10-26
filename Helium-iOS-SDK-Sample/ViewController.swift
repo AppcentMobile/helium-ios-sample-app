@@ -10,19 +10,20 @@ import Helium_iOS_SDK
 
 class ViewController: UIViewController {
 
-    lazy var manager = HeliumBlockChainAccountsManager()
+    lazy var generator = HeliumManagerGenerator()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let manager = generator.generate(AccountsManager.self)
+
         manager.listAccounts { response in
+            
         } onError: { error in
         }
 
         manager.listRichestAccounts { response in
         } onError: { error in
         }
-
     }
-
 }
