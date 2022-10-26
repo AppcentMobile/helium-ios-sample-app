@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F90ABC292909704D003ED112 /* HeliumSDK in Frameworks */ = {isa = PBXBuildFile; productRef = F90ABC282909704D003ED112 /* HeliumSDK */; };
 		F919B6CF28F9529200BF8379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919B6CE28F9529200BF8379 /* AppDelegate.swift */; };
 		F919B6D128F9529200BF8379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919B6D028F9529200BF8379 /* SceneDelegate.swift */; };
 		F919B6D328F9529200BF8379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919B6D228F9529200BF8379 /* ViewController.swift */; };
 		F919B6D628F9529200BF8379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919B6D428F9529200BF8379 /* Main.storyboard */; };
 		F919B6D828F9529400BF8379 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919B6D728F9529400BF8379 /* Assets.xcassets */; };
 		F919B6DB28F9529400BF8379 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919B6D928F9529400BF8379 /* LaunchScreen.storyboard */; };
-		F9AC99852909668500849ADB /* Helium-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = F9AC99842909668500849ADB /* Helium-iOS-SDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9AC99852909668500849ADB /* Helium-iOS-SDK in Frameworks */,
+				F90ABC292909704D003ED112 /* HeliumSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			);
 			name = "Helium-iOS-SDK-Sample";
 			packageProductDependencies = (
-				F9AC99842909668500849ADB /* Helium-iOS-SDK */,
+				F90ABC282909704D003ED112 /* HeliumSDK */,
 			);
 			productName = "Helium-iOS-SDK-Sample";
 			productReference = F919B6CB28F9529200BF8379 /* Helium-iOS-SDK-Sample.app */;
@@ -117,7 +117,7 @@
 			);
 			mainGroup = F919B6C228F9529200BF8379;
 			packageReferences = (
-				F9AC99832909668500849ADB /* XCRemoteSwiftPackageReference "helium-ios-sdk" */,
+				F90ABC272909704D003ED112 /* XCRemoteSwiftPackageReference "helium-ios-sdk" */,
 			);
 			productRefGroup = F919B6CC28F9529200BF8379 /* Products */;
 			projectDirPath = "";
@@ -366,7 +366,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		F9AC99832909668500849ADB /* XCRemoteSwiftPackageReference "helium-ios-sdk" */ = {
+		F90ABC272909704D003ED112 /* XCRemoteSwiftPackageReference "helium-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppcentMobile/helium-ios-sdk.git";
 			requirement = {
@@ -377,10 +377,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F9AC99842909668500849ADB /* Helium-iOS-SDK */ = {
+		F90ABC282909704D003ED112 /* HeliumSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F9AC99832909668500849ADB /* XCRemoteSwiftPackageReference "helium-ios-sdk" */;
-			productName = "Helium-iOS-SDK";
+			package = F90ABC272909704D003ED112 /* XCRemoteSwiftPackageReference "helium-ios-sdk" */;
+			productName = HeliumSDK;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Helium_iOS_SDK
+import HeliumSDK
 
 class ViewController: UIViewController {
 
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let manager = generator.generate(AccountsManager.self)
+        let manager = generator.generate(HeliumAccountsManager.self)
 
         manager.listAccounts { response in
             

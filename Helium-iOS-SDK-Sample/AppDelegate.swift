@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Helium_iOS_SDK
+import HeliumSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
